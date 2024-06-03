@@ -1,7 +1,8 @@
-package main.java.list.OperacoesBasicas;
+package list.OperacoesBasicas;
 
 import java.util.ArrayList;
 import java.util.List;
+
 
 public class ListaTarefa {
     //Atributo
@@ -11,10 +12,12 @@ public class ListaTarefa {
         this.tarefaList = new ArrayList<>();
     }
     
+    // Adicionando uma nova tarefa à lista.
     public void adicionarTarefa(String descricao) {
         tarefaList.add(new Tarefa(descricao));
     }
 
+    //Removendo uma tarefa da lista.
     public void removerTarefa(String descricao) {
         List<Tarefa> tarefasParaRemover = new ArrayList<>();
         if (!tarefaList.isEmpty()) {
@@ -28,10 +31,13 @@ public class ListaTarefa {
             System.out.println("A lista está vazia!");
         }
     }
+
+    //Retorna o número total de tarefas na lista.
     public int obterNumeroTotalTarefas(){
         return tarefaList.size();
     }
     
+    //Retorna uma lista contendo a descrição de todas as tarefas na lista.
     public void obterDescricoesTarefas(){
         if(!tarefaList.isEmpty()) {
             System.out.println(tarefaList);
@@ -70,4 +76,5 @@ public class ListaTarefa {
     System.out.println("Agora você tem " + listaTarefa.obterNumeroTotalTarefas() + " tarefas na lista:");
 
     }
+    
 }
