@@ -1,0 +1,63 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "collections-java-api-2023_203bd92c"
+        },
+        {
+            "type": "java",
+            "name": "ListaTarefa",
+            "request": "launch",
+            "mainClass": "list.OperacoesBasicas.ListaTarefa",
+            "projectName": "collections-java-api-2023_203bd92c"
+        },
+        {
+            "type": "java",
+            "name": "OrdenacaoPessoa",
+            "request": "launch",
+            "mainClass": "list.Ordenacao.OrdenacaoPessoa",
+            "projectName": "collections-java-api-2023_203bd92c"
+        },
+        {
+            "type": "java",
+            "name": "CatalogosLivros",
+            "request": "launch",
+            "mainClass": "list.Pesquisa.CatalogosLivros",
+            "projectName": "collections-java-api-2023_203bd92c"
+        },
+        {
+            "type": "java",
+            "name": "AgendaContatos",
+            "request": "launch",
+            "mainClass": "set.OperacoesBasicas.AgendaContatos",
+            "projectName": "collections-java-api-2023_203bd92c"
+        },
+        {
+            "type": "java",
+            "name": "ConjuntoConvidados",
+            "request": "launch",
+            "mainClass": "set.OperacoesBasicas.ConjuntoConvidados",
+            "projectName": "collections-java-api-2023_203bd92c"
+        },
+        {
+            "type": "java",
+            "name": "CadastroProdutos",
+            "request": "launch",
+            "mainClass": "set.Ordenacao.CadastroProdutos",
+            "projectName": "collections-java-api-2023_203bd92c"
+        }
+    ]
+}
